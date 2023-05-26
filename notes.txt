@@ -1,0 +1,20 @@
+#
+
+
+# CRUD com PHP
+    - https://www.nodestudio.com.br/meus-cursos/curso-de-php-7/crud-php-mysql-3
+
+#
+
+
+# Links
+    - https://github.com/solrachix/podcastr
+    - https://pixabay.com/pt/images/search/pizza/
+    - https://www.pexels.com/pt-br/procurar/pizza/
+    - https://pixabay.com/pt/photos/pizza-pizza-vegana-pizza-vegetariana-2589575/
+    - https://pixabay.com/pt/photos/pizza-italiano-caseiro-queijo-3007395/
+    - https://freesvgillustration.com/?s=pizza&id=603
+    - https://undraw.co/search
+    - https://freesvgillustration.com/product/delivery-boy-2/
+    - https://freesvgillustration.com/product/pizza-delivery/
+    - https://fonts.google.com/specimen/Source+Sans+Pro

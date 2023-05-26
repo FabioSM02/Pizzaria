@@ -1,0 +1,18 @@
+# Tabelas no Banco
+    - Produtos
+    - Estoque
+    - Caixa
+    - Funcionário
+    - Fornecedores
+    - Contas a pagar
+    - Contas a receber
+
+# Banco a ser utilizado
+    - MariaDB
+
+# Crud
+    - Inserir => insert
+    - Exibir => select
+    - Alterar => update
+    - Excluir => drop
+

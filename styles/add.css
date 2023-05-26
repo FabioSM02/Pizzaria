@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+:root {
+    --background-dark: #222;
+    --text-light: #F1F1F1;
+}
+
+body {
+    background-color: var(--background-dark);
+    font-family: 'Lilita One';
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    color: var(--text-light);
+}
+
+form {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+input {
+    margin-bottom: 2rem;
+    width: 20rem;
+    padding: .5rem;
+    outline: none;
+    border: none;
+    border-radius: .4rem;
+    color: var(--text-light);
+    background-color: var(--background-dark);
+    
+}
+
+/* input::placeholder {
+    color: var(--text-light);
+} */
+
+.cadastrar {
+    border: 0px;
+    padding: 1rem 1rem;
+    background-color: none;
+    border-radius: .4rem;
+}
