@@ -76,6 +76,68 @@ body {
     height: 90vh;
 }
 
+.slides {
+    display: flex;
+    width: 600%;
+    height: 100%;
+}
+
+input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide01:checked ~ .first {
+    margin-left: 0;
+}
+
+#slide02:checked ~ .first {
+    margin-left: -20%;
+}
+
+#slide03:checked ~ .first {
+    margin-left: -40%;
+}
+
+#slide04:checked ~ .first {
+    margin-left: -60%;
+}
+
+#slide05:checked ~ .first {
+    margin-left: -80%;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 8rem;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.navigation label {
+    width: 4.2rem;
+    height: 1rem;
+    border: 2px solid var(--text-light);
+    margin: .4rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.navigation > label:hover {
+    background-color: var(--text-light);
+}
+
 #about-us {
     width: 100vw;
     height: 50vw;

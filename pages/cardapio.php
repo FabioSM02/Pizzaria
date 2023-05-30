@@ -36,22 +36,22 @@
                     <tbody>
                         <tr>
                             <td>
-                                4 Queijos
+                                sem sabor
                             </td>
                             <td>
-                                R$ 25,00
+                                sem preço
                             </td>
                             <td>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                sem descrição pq essa pizzaria é nilista
                             </td>
                             <td>
                                 <button class="btn-editar">
-                                    ✏ 
+                                    <img src="../assets/pen.svg" alt="Editar">
                                 </button>
                             </td>  
                             <td>
                                 <button class="btn-delete">
-                                    trash
+                                    <img src="../assets/trash.svg" alt="Deletar">
                                 </button>
                             </td>
                         </tr>

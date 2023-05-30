@@ -51,4 +51,10 @@ th, td {
     height: 3rem;
     border: none;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn-editar > img, .btn-delete > img {
+     width: 1.5rem;
+     height: 1.5rem;
 }
