@@ -8,6 +8,16 @@
 :root {
     --background-dark: #222;
     --text-light: #F1F1F1;
+
+    --yellow-500: #F0D770;
+
+    --orange-100: #FAF7F2;
+    --orange-300: #EB8F6E;
+    --orange-400: #ED794E;
+    --orange-600: #FA6A34;
+    --orange-800: #EB3E00;
+
+    --primary-500: #FAF7FF;
 }
 
 body {
@@ -43,11 +53,14 @@ input {
     width: 20rem;
     padding: .5rem;
     outline: none;
-    border: none;
+    border: .1px solid var(--orange-300);
     border-radius: .4rem;
     color: var(--text-light);
     background-color: var(--background-dark);
-    
+}
+
+input::placeholder {
+    color: var(--orange-400);
 }
 
 /* input::placeholder {
@@ -57,6 +70,34 @@ input {
 .cadastrar {
     border: 0px;
     padding: 1rem 1rem;
-    background-color: none;
+    background-color: var(--orange-400);
     border-radius: .4rem;
+    color: var(--text-light);
+    font-weight: 400;
+    font-family: 'Roboto Slab';
+    font-size: 1rem;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.cadastrar:hover {
+    font-weight: 700;
+}
+
+.back {
+    margin-top: 2rem;
+    border: 0;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    color: var(--text-light);
+    scale: 1;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back:hover {
+    scale: 1.1;
 }

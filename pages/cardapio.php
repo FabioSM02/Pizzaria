@@ -1,3 +1,9 @@
+<?php
+
+    include_once './conecta.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -34,30 +40,45 @@
                         </tr>
                     </thead>
                     <tbody>
+
+                        <?php
+                            $selectSQL = "SELECT * FROM sabores";
+                            $cardapio = mysqli_query($connect, $selectSQL);
+                            while($sabor = mysqli_fetch_array($cardapio)){
+                        ?>
+
                         <tr>
                             <td>
-                                sem sabor
+                                <?php echo $sabor['sabor']; ?>
                             </td>
                             <td>
-                                sem preço
+                                R$ <?php echo $sabor['preco']; ?>
                             </td>
                             <td>
-                                sem descrição pq essa pizzaria é nilista
+                                <?php echo $sabor['descricao']; ?>
                             </td>
                             <td>
-                                <button class="btn-editar">
+                                <button class="btn-editar" onclick="window.location.href='./edit.php?id=<?php echo $sabor['id']; ?>'">
                                     <img src="../assets/pen.svg" alt="Editar">
                                 </button>
                             </td>  
                             <td>
-                                <button class="btn-delete">
+                                <button class="btn-delete" onclick="window.location.href='./php_action/delete.php?<?php echo $sabor['id']; ?>'">
                                     <img src="../assets/trash.svg" alt="Deletar">
                                 </button>
                             </td>
                         </tr>
+                        <?php
+
+                            }
+
+                        ?>
                     </tbody>
                 </table>
             </div>
+            <a class="add-new-flavor" href="./adicionar.php" name="btn-add">
+                Adicionar novo sabor
+            </a>
     </body>
 </html>
             

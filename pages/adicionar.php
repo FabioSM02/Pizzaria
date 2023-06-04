@@ -24,10 +24,13 @@
             <input type="text" name="preco" class="" placeholder="Preço">
             <input type="text" name="descricao" class="" placeholder="Descrição">
 
-            <button type="submit" class="cadastrar">
+            <button type="submit" name="btn-cadastrar" class="cadastrar">
                 Cadastrar novo sabor
             </button>
         </form>
+        <a href="./cardapio.php" name="back" class="back">
+            Voltar
+        </a>
     </main>
 </body>
 </html>

@@ -14,11 +14,12 @@ body {
     --yellow-500: #F0D770;
 
     --orange-100: #FAF7F2;
+    --orange-300: #EB8F6E;
     --orange-400: #ED794E;
     --orange-600: #FA6A34;
     --orange-800: #EB3E00;
 
-    --primary-500: #faf7ff;
+    --primary-500: #FAF7FF;
 }
 
 #container {
@@ -57,6 +58,11 @@ body {
     scale: 1;
     transition: .4s ease-in-out;
     cursor: pointer;
+}
+
+.wrapper ul li a {
+    text-decoration: none;
+    color: var(--text-light);
 }
 
 .wrapper > ul > li:hover {

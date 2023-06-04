@@ -11,7 +11,16 @@ body {
     --background-dark: #222;
     --text-light: #F1F1F1;
 
+    --yellow-500: #F0D770;
 
+    --orange-100: #FAF7F2;
+    --orange-200: #EBAC96;
+    --orange-300: #EB8F6E;
+    --orange-400: #ED794E;
+    --orange-600: #FA6A34;
+    --orange-800: #EB3E00;
+
+    --primary-500: #FAF7FF;
 }
 
 body {
@@ -43,7 +52,9 @@ th, td {
     border: 1px solid #FFF;
     padding: 1rem 0;
     color: var(--text-light);
+    font-family: 'Roboto Slab';
     text-align: center;
+    background-color: var(--orange-200);
 }
 
 .btn-delete, .btn-editar {
@@ -51,10 +62,31 @@ th, td {
     height: 3rem;
     border: none;
     border-radius: 50%;
+    outline: none;
     cursor: pointer;
+    margin: 0 1rem;
+    background-color: var(--orange-300);
+    transition: .4s ease-in-out;
+}
+
+.btn-delete:hover, .btn-editar:hover {
+    background-color: var(--orange-600);
 }
 
 .btn-editar > img, .btn-delete > img {
      width: 1.5rem;
      height: 1.5rem;
+}
+
+.add-new-flavor {
+    margin-top: 8rem;
+    border: 0;
+    background-color: transparent;
+    color: var(--text-light);
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
 }
